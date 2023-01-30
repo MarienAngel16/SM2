@@ -1,0 +1,9 @@
+.inicio
+
+/*Clase de la sección inicio que contiene las imágenes del index*/
+    {
+    position: relative;
+    /*Esta clase es relativa para que al contener 
+                   objetos absolutos estos se muevan de acuerdo a la imagen,align-content: 
+                   en este caso los botones son absolutos y estan almacenados dentro de la división "inicio"*/
+}

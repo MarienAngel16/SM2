@@ -1,0 +1,400 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.inicio
+
+/*Clase de la sección inicio que contiene las imágenes del index*/
+    {
+    position: relative;
+    /*Esta clase es relativa para que al contener 
+                   objetos absolutos estos se muevan de acuerdo a la imagen,align-content: 
+                   en este caso los botones son absolutos y estan almacenados dentro de la división "inicio"*/
+}
+
+.inicio::after {
+    /*La linea*/
+    padding: 7px;
+    content: "";
+    width: 6px;
+    height: 89%;
+    background: #e66807;
+    position: absolute;
+    top: 320px;
+    left: calc(50% - 0px);
+    z-index: 1;
+    flex-direction: row-reverse;
+}
+
+.boton {
+    text-decoration: none;
+    /*No hay decoración en el texto*/
+    border: none;
+    /*No hay borde en el botón*/
+    background-color: #088037;
+    /*Color del botón VERDE*/
+    text-align: center;
+    /*El texto esta centrado sobre su respectiva linea*/
+    display: inline-block;
+    /*Alrededor del botón hay un bloque*/
+    font-size: 30px;
+    /*Es el tamaño de las letras*/
+    cursor: pointer;
+    /*El cursor a usar será apuntador, la manita*/
+    width: 223px;
+    /*Anchura del botón*/
+    height: 52px;
+    /*Altura del botón*/
+}
+
+.boton .text {
+    font-family: arial, helvetica;
+    position: relative;
+    top: 10px;
+    color: white;
+    /*El color de texto es blanco*/
+}
+
+.boton:hover {
+    background: #27AE60;
+    /*para que cambie de color los bloques de texto VERDE CLARO*/
+}
+/*-----------------------Boton de informes----------------------------*/
+.informes {
+    text-decoration: none;
+    /*No hay decoración en el texto*/
+    border: none;
+    /*No hay borde en el botón*/
+    background-color:#1C30D5;
+    /*Color del botón VERDE*/
+    text-align: center;
+    /*El texto esta centrado sobre su respectiva linea*/
+    display: inline-block;
+    /*Alrededor del botón hay un bloque*/
+    font-size: 30px;
+    /*Es el tamaño de las letras*/
+    cursor: pointer;
+    /*El cursor a usar será apuntador, la manita*/
+    width: 209px;
+    /*Anchura del botón*/
+    height: 36px;
+    /*Altura del botón*/
+}
+
+.informes:hover
+{
+    background-color:#3C51FF ;
+}
+
+.informes .text 
+{
+    font-family: arial, helvetica;
+        position: relative;
+        top: 1px;
+        color: white;
+        /*El color de texto es NEGRO*/
+        font-size: 20px;
+}
+
+/*--------------------Defininición de imagenes de los grupos---------------------*/
+.medida {
+    display: flex;
+    justify-content: space-between;
+    width: 464px;
+        /*Anchura de las imagenes*/
+        height: 320px;
+        /*Altura de las imágenes*/
+}
+
+.foto {
+    /*Borde de las fotos*/
+    width: 100%;
+    border: 10px solid #fff;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /*Sombra detras de la foto*/
+}
+
+
+/*--------------------Defininición de botones principales---------------------*/
+.button1 {
+    position: absolute;
+    /*el botón es absoluto para moverse dentro de la imagen*/
+    left: 521px;
+    /*posición a la derecha del boton*/
+    top: 138px;
+}
+
+.button2 {
+    position: absolute;
+    /*el botón es absoluto para moverse dentro de la imagen*/
+    left: 226px;
+    /*posición a la derecha del boton*/
+    top: 0px;
+}
+
+/*posición de arriba del botón*/
+
+.button3 {
+    position: absolute;
+    /*el botón es absoluto para moverse dentro de la imagen*/
+    left: 973px;
+    /*posición a la derecha del boton*/
+    top: 138px;
+}
+
+.button4 {
+    position: absolute;
+    left: 1199px;
+    top: 138px;
+}
+/*-----------------------Definición de botones de informes---------------------------*/
+.in1 {
+    position: absolute;
+    left: 1253px;
+    top: 565px;
+}
+.in2 {
+    position: absolute;
+    left: 489px;
+    top: 1013px;
+}
+
+.in3 {
+    position: absolute;
+    left: 1235px;
+    top: 1522px;
+}
+
+.in4 {
+    position: absolute;
+    left: 467px;
+    top: 1975px;
+}
+
+.in5 {
+    position: absolute;
+    left: 1261px;
+    top: 2473px;
+}
+
+.in6 {
+    position: absolute;
+    left: 487px;
+    top: 2916px;
+}
+
+.in7 {
+    position: absolute;
+    left: 1242px;
+    top: 3450px;
+}
+
+.in8 {
+    position: absolute;
+    left: 475px;
+    top: 3895px;
+}
+
+.in9 {
+    position: absolute;
+    left: 1240px;
+    top: 4355px;
+}
+
+.in10 {
+    position: absolute;
+    left: 473px;
+    top: 4806px;
+}
+
+.in11 {
+    position: absolute;
+    left: 1238px;
+    top: 5290px;
+}
+
+.in12 {
+    position: absolute;
+    left: 436px;
+    top: 5746px;
+}
+
+.in13 {
+    position: absolute;
+    left: 1240px;
+    top: 6235px;
+}
+
+.in14 {
+    position: absolute;
+    left: 484px;
+    top: 6680px;
+}
+
+.in15 {
+    position: absolute;
+    left: 1265px;
+    top: 7150px;
+}
+
+.in16 {
+    position: absolute;
+    left: 478px;
+    top: 7610px;
+}
+
+.in17 {
+    position: absolute;
+    left: 1265px;
+    top: 8110px;
+}
+
+.in18 {
+    position: absolute;
+    left: 515px;
+    top: 8545px;
+}
+
+.in19 {
+position: absolute;
+left: 1257px;
+top: 8987px;
+}
+
+/*--------------------Medidas de las imagenes---------------------*/
+.evento1 {
+    position: absolute;
+    left: 361px;
+    top: 325px;
+}
+
+.evento2 {
+    position: absolute;
+    left: 1120px;
+    top: 780px;
+}
+.evento3 {
+    position: absolute;
+    left: 340px;
+    top: 1240px;
+}
+.evento4 {
+    position: absolute;
+    left: 1100px;
+    top: 1720px;
+}
+
+.evento5 {
+    position: absolute;
+    left: 370px;
+    top: 2200px;
+}
+
+.evento6 {
+    position: absolute;
+    left: 1130px;
+    top: 2680px;
+}
+
+.evento7 {
+    position: absolute;
+    left: 360px;
+    top: 3150px;
+}
+
+.evento8 {
+    position: absolute;
+    left: 1117px;
+    top: 3640px;
+}
+
+.evento9 {
+    position: absolute;
+    left: 340px;
+    top: 4100px;
+}
+
+.evento10 {
+    position: absolute;
+    left: 1124px;
+    top: 4550px;
+}
+
+.evento11 {
+    position: absolute;
+    left: 340px;
+    top: 5010px;
+}
+
+.evento12 {
+    position: absolute;
+    left: 1086px;
+    top: 5517px;
+}
+.evento13 {
+    position: absolute;
+    left: 345px;
+    top: 5975px;
+}
+.evento14 {
+    position: absolute;
+    left: 1124px;
+    top: 6444px;
+}
+.evento15 {
+    position: absolute;
+    left: 360px;
+    top: 6880px;
+}
+.evento16 {
+    position: absolute;
+    left: 1130px;
+    top: 7350px;
+}
+.evento17 {
+    position: absolute;
+    left: 372px;
+    top: 7841px;
+}
+.evento18 {
+    position: absolute;
+    left: 1171px;
+    top: 8306px;
+}
+
+.evento19 {
+    position: absolute;
+    left: 372px;
+    top: 8723px;
+}
+
+/* --------------------Galeria con scroll---------------------------*/
+.slider-container {
+    display: flex;
+    width: 1011px;
+    height: 606px;
+    overflow-x: scroll;
+
+    scroll-snap-type: x mandatory;
+
+    position: absolute;
+    left: 516px;
+    top: 9105px;
+}
+
+.slider-container img {
+    scroll-snap-align: center;
+}
+
+.slider-item {
+display: flex;
+    justify-content: space-between;
+    width: 1011px;
+    /*Anchura de las imagenes*/
+    height: 606px;
+    /*Altura de las imágenes*/
+}
